@@ -37,7 +37,7 @@ keys.addEventListener("click", function (e) {
 
 function handleOperator(nextOperator) {
   const value = parseFloat(displayValue);
-  if (operator && waitinForSecondValue) {
+  if (operator && waitingForSecondValue) {
     operator = nextOperator;
     return;
   }
